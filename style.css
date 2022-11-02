@@ -1,5 +1,5 @@
 /*========================================
-        Universal Design Starts Here
+            Universal Design
 =========================================*/
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
@@ -48,18 +48,21 @@ p {
 body {
   width: 100%;
 }
-/*========================================
-        Universal Design Ends Here
-=========================================*/
 
-/* Header Starts Here */
+/*========================================
+          Header Design & Navbar
+=========================================*/
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 80px;
-  background-color: #e3e6f3;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  background-color: #d4d8ea;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 #navbar {
@@ -101,4 +104,40 @@ body {
 #navbar li a i{
     font-size: 35px;
     margin-top: -15px;
+}
+
+/*========================================
+          Home Page Design
+=========================================*/
+#hero{
+  background-image: url(./img/hero4.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4{
+padding-bottom: 15px;
+}
+
+#hero h1{
+  color: #088178;
+}
+
+#hero button{
+  background-image: url("./img/button.png");
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
 }

@@ -457,6 +457,12 @@ footer .copyright {
     font-size: 26px;
     padding-left: 20px;
   }
-
+#close{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #222;
+  font-size: 26px;
+}
   /*==========================================================================*/
 }

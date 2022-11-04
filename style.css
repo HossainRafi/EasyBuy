@@ -460,6 +460,10 @@ footer .copyright {
 /*======================== Shop Page Design End ========================*/
 
 /*======================== Single Product Page Design Start ========================*/
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
 #prodetails .single-pro-image{
   width: 40%;
   margin-right: 50px;
@@ -471,6 +475,46 @@ footer .copyright {
 .small-img-col{
   flex-basis: 24%;
   cursor: pointer;
+}
+#prodetails .single-row-details{
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetails .single-row-details h4{
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+#prodetails .single-row-details h2{
+  font-size: 26px;
+  color: #088178;
+}
+#prodetails .single-row-details select{
+  display: flex;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-row-details select:focus{
+  outline: none;
+}
+#prodetails .single-row-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetails .single-row-details input:focus{
+outline: none;
+}
+#prodetails .single-row-details button{
+  background: #088178;
+  color: #fff;
+}
+#prodetails .single-row-details span{
+  line-height: 25px;
+}
+#prodetails .single-row-details .details{
+  padding: 30px 0 15px 0;
 }
 
 /*====================== Responsive Design Start(Medium Screen) ======================*/

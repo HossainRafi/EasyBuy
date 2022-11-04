@@ -107,7 +107,7 @@ button.white {
   bottom: -4px;
   left: 21px;
 }
-#mobile{
+#mobile {
   display: none;
   align-items: center;
 }
@@ -352,7 +352,7 @@ button.white {
 #newsletter p span {
   color: #ffbd27;
 }
-#newsletter .form{
+#newsletter .form {
   display: flex;
   width: 40%;
 }
@@ -371,63 +371,63 @@ button.white {
   white-space: nowrap;
   border-radius: 0 4px 4px 0;
 }
-footer{
+footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .col{
+footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
-footer .logo{
+footer .logo {
   margin-bottom: 30px;
 }
-footer h4{
+footer h4 {
   font-size: 14px;
   padding-bottom: 20px;
 }
-footer p{
+footer p {
   font-size: 13px;
   margin: 0 0 8px 0;
 }
-footer a{
+footer a {
   font-size: 13px;
   text-decoration: none;
   color: #222;
   margin-bottom: 10px;
 }
-footer .follow{
+footer .follow {
   margin-top: 20px;
 }
-footer .follow i{
+footer .follow i {
   color: #000;
   font-size: 30px;
   font-weight: 500;
   padding-right: 4px;
   cursor: pointer;
 }
-footer .install .row img{
+footer .install .row img {
   border: 1px solid #088178;
 }
-footer .install img{
+footer .install img {
   margin: 10px 0 15px 0;
 }
 footer .follow i:hover,
-footer a:hover{
+footer a:hover {
   color: #088178;
 }
-footer .copyright{
+footer .copyright {
   width: 100%;
   text-align: center;
 }
 /*======================== Home Page Design End ========================*/
 
 /*======================== Responsive Design Start ========================*/
-@media (max-width:799px){
-  #navbar{
+@media (max-width: 799px) {
+  #navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -440,17 +440,23 @@ footer .copyright{
     background-color: #e3e6f3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
     padding: 80px 0 0 10px;
+    transition: 0.7s;
   }
-#navbar li{
-  margin-bottom: 25px;
+  #navbar.active {
+  right: 0px;
 }
-#mobile{
-  display: flex;
-  align-items: center;
-}
-#mobile i{
-  color: #1a1a1a;
-  font-size: 26px;
-  padding-left: 20px;
-}
+  #navbar li {
+    margin-bottom: 25px;
+  }
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+  #mobile i {
+    color: #1a1a1a;
+    font-size: 26px;
+    padding-left: 20px;
+  }
+
+  /*==========================================================================*/
 }

@@ -111,7 +111,7 @@ button.white {
   display: none;
   align-items: center;
 }
-#close{
+#close {
   display: none;
 }
 #navbar li a i {
@@ -432,7 +432,7 @@ footer .copyright {
 
 /*====================== Responsive Design Start(Medium Screen) ======================*/
 @media (max-width: 799px) {
-  .section-p1{
+  .section-p1 {
     padding: 40px 40px;
   }
   #navbar {
@@ -451,8 +451,8 @@ footer .copyright {
     transition: 0.7s;
   }
   #navbar.active {
-  right: 0px;
-}
+    right: 0px;
+  }
   #navbar li {
     margin-bottom: 25px;
   }
@@ -465,84 +465,84 @@ footer .copyright {
     font-size: 26px;
     padding-left: 20px;
   }
-#close{
-  display: initial;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  color: #222;
-  font-size: 26px;
-}
-#lg-bag{
-  display: none;
-}
-#hero{
-  height: 70vh;
-  padding: 0 80px;
-  background-position: top 30% right 30%;
-}
-#feature{
-  justify-content: center;
-}
-#feature .fe-box{
-  margin: 15px 15px;
-}
-#product1 .pro-container{
-  justify-content: center;
-}
-#product1 .pro{
-  margin: 25px 25px 0 25px;
-}
-#banner{
-  height: 40vh;
-}
-#sm-banner .banner-box{
-  min-width: 100%;
-  height: 40vh;
-}
-#newsletter .form{
-  width: 70%;
-}
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 26px;
+  }
+  #lg-bag {
+    display: none;
+  }
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+  #feature {
+    justify-content: center;
+  }
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+  #product1 .pro-container {
+    justify-content: center;
+  }
+  #product1 .pro {
+    margin: 25px 25px 0 25px;
+  }
+  #banner {
+    height: 40vh;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 40vh;
+  }
+  #newsletter .form {
+    width: 70%;
+  }
   /*==============================*/
 }
 /*====================== Responsive Design End(Medium Screen) ======================*/
 
 /*====================== Responsive Design Start(Small Screen) ======================*/
-@media(max-width:477){
-  .section-p1{
+@media (max-width: 477) {
+  .section-p1 {
     padding: 20px;
   }
-  #header{
+  #header {
     padding: 10px 20px;
   }
-  h1{
+  h1 {
     font-size: 38px;
   }
-  h2{
+  h2 {
     font-size: 32px;
   }
-  #hero{
+  #hero {
     padding: 0 20px;
     background-position: 55%;
   }
-  #feature{
+  #feature {
     justify-content: space-between;
   }
-  #feature .fe-box{
+  #feature .fe-box {
     width: 155px;
     margin: 0 0 15px 0;
   }
-  #product1 .pro{
+  #product1 .pro {
     width: 100%;
   }
-  #newsletter{
+  #newsletter {
     padding: 40px 20px;
   }
-#newsletter .form{
-  width: 100%;
-}
-footer .copyright{
-  text-align: start;
-}
+  #newsletter .form {
+    width: 100%;
+  }
+  footer .copyright {
+    text-align: start;
+  }
   /*================================*/
 }

@@ -518,6 +518,43 @@ footer .copyright {
 }
 /*======================== Single Product Page Design End ========================*/
 
+/*======================== Contact Page Design End ========================*/
+#contact-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact-details .details{
+  width: 40%;
+}
+#contact-details .details span{
+  font-size: 16px;
+}
+#contact-details .details h2{
+  font-size: 30px;
+  line-height: 35px;
+  padding: 20px 0px;
+}
+#contact-details .details h3{
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+#contact-details .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0px;
+}
+#contact-details .details li i{
+  font-size: 18px;
+  padding-right: 15px;
+  font-weight: 600;
+}
+#contact-details .details li p{
+  margin: 3px 0 0 0;
+  font-size: 18px;
+}
+/*======================== Contact Page Design End ========================*/
+
 /*====================== Responsive Design Start(Medium Screen) ======================*/
 @media (max-width: 799px) {
   .section-p1 {

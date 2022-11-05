@@ -660,6 +660,15 @@ footer .copyright {
   #newsletter .form {
     width: 70%;
   }
+
+    /* Contact Page */
+  #form-details form input,
+#form-details form textarea{
+  width: 70%;
+}
+#form-details form button{
+  width: 70%;
+}
   /*==============================*/
 }
 /*====================== Responsive Design End(Medium Screen) ======================*/
@@ -713,5 +722,24 @@ footer .copyright {
   #prodetails .single-row-details {
     width: 100%;
   }
+
+  /* Contact Page */
+  #contact-details{
+    flex-direction: column;
+  }
+  #contact-details .details{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contact-details .map{
+    width: 100%;
+  }
+#form-details form input,
+#form-details form textarea{
+  width: 98%;
+}
+#form-details form button{
+  width: 98%;
+}
   /*================================*/
 }

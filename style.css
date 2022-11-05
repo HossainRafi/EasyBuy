@@ -459,59 +459,6 @@ footer .copyright {
 }
 /*======================== Shop Page Design End ========================*/
 
-/*======================== Cart Page Design End ========================*/
-#cart table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  white-space: nowrap;
-  border: 2px solid #c7c9d0;
-}
-#cart table img {
-  width: 70px;
-}
-#cart table td:nth-child(1) {
-  width: 100px;
-  text-align: center;
-}
-#cart table td:nth-child(2) {
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(3) {
-  width: 250px;
-  text-align: center;
-}
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6) {
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(5) input{
-  width: 70px;
-  padding: 10px 5px 10px 15px;
-}
-#cart table thead{
-  border: 2px solid #c7c9d0;
-}
-#cart table thead td{
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 15px 0;
-}
-#cart table tbody tr{
-    border: 1px solid #c7c9d0;
-}
-#cart table tbody tr td{
-  padding: 10px 0;
-}
-#cart table tbody td{
-  font-size: 18px;
-}
-/*======================== Cart Page Design End ========================*/
-
 /*======================== Single Product Page Design Start ========================*/
 #prodetails {
   display: flex;
@@ -639,6 +586,62 @@ footer .copyright {
   color: #fff;
 }
 /*======================== Contact Page Design End ========================*/
+
+/*======================== Cart Page Design End ========================*/
+#cart{
+  overflow-x: auto;
+}
+#cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+  border: 2px solid #c7c9d0;
+}
+#cart table img {
+  width: 70px;
+}
+#cart table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+#cart table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(5) input{
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+  border: 2px solid #c7c9d0;
+}
+#cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px 0;
+}
+#cart table tbody tr{
+    border: 1px solid #c7c9d0;
+}
+#cart table tbody tr td{
+  padding: 10px 0;
+}
+#cart table tbody td{
+  font-size: 18px;
+}
+/*======================== Cart Page Design End ========================*/
 
 /*====================== Responsive Design Start(Medium Screen) ======================*/
 @media (max-width: 799px) {

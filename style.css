@@ -553,6 +553,14 @@ footer .copyright {
   margin: 3px 0 0 0;
   font-size: 18px;
 }
+#contact-details .map{
+  width: 55%;
+  height: 400px;
+}
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
 /*======================== Contact Page Design End ========================*/
 
 /*====================== Responsive Design Start(Medium Screen) ======================*/

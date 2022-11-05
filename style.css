@@ -465,6 +465,7 @@ footer .copyright {
   border-collapse: collapse;
   table-layout: fixed;
   white-space: nowrap;
+  border: 2px solid #c7c9d0;
 }
 #cart table img {
   width: 70px;
@@ -486,6 +487,28 @@ footer .copyright {
 #cart table td:nth-child(6) {
   width: 150px;
   text-align: center;
+}
+#cart table td:nth-child(5) input{
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+  border: 2px solid #c7c9d0;
+}
+#cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px 0;
+}
+#cart table tbody tr{
+    border: 1px solid #c7c9d0;
+}
+#cart table tbody tr td{
+  padding: 10px 0;
+}
+#cart table tbody td{
+  font-size: 18px;
 }
 /*======================== Cart Page Design End ========================*/
 

@@ -1,6 +1,6 @@
-## Project Name: [Easy Buy](https://easy-buy-basic.netlify.app)
+## Project Name: [EasyBuy](https://easy-buy-basic.netlify.app)
 
-## Project Live Link: [Easy Buy](https://easy-buy-basic.netlify.app)
+## Project Live Link: [EasyBuy](https://easy-buy-basic.netlify.app)
 
 ## This is a JavaScript "E-Commerce" application build with HTML, CSS & JavaSceipt
 

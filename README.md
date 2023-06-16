@@ -1,10 +1,8 @@
 ## Project Name: [EasyBuy](https://easy-buy-basic.netlify.app)
 
-## Project Live Link: [EasyBuy](https://easy-buy-basic.netlify.app)
-
 ## This is a JavaScript "E-Commerce" application build with HTML, CSS & JavaSceipt
 
-### Technology Used:
+## Tech Stack:
 - HTML
 - CSS
 - JavaScript

@@ -1,11 +1,12 @@
-## Project Name: [EasyBuy](https://easy-buy-basic.netlify.app)
+# Project Name: [EasyBuy](https://easy-buy-basic.netlify.app)
 
-## This is a JavaScript "E-Commerce" application build with HTML, CSS & JavaSceipt
-
-## Tech Stack:
+## Technologies:
 - HTML
 - CSS
 - JavaScript
+
+## Project Description:
+### This website is a fully responsive JavaScript "E-commerce" website. This website build with HTML, CSS & JavaScript. User can see more images and product details by clicking any of the products.
 
 ![app image](https://i.ibb.co/jhtXNfz/Screenshot-517.png)
 ![app image](https://i.ibb.co/xsvHcm8/Screenshot-518.png)
